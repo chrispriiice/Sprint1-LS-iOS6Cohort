@@ -23,12 +23,14 @@ class CreateNewMovieViewController: UITabBarController {
     
     @IBAction func saveMovieButtonPressed(_ sender: Any) {
         
-        guard let movie = addMovieTitleTextField.text,
+
+        guard let movie = addMovieTitleTextField.text
         else { return }
         
+        movieController?.createMovie(with: movie)
+
     }
     
-    movieController?.createMovie(with: movie) 
     
     /*
     // MARK: - Navigation
