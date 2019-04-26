@@ -10,13 +10,26 @@ import UIKit
 
 class CreateNewMovieViewController: UITabBarController {
 
+    var movieController: MovieController?
+    
+    
+    @IBOutlet weak var addMovieTitleTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func saveMovieButtonPressed(_ sender: Any) {
+        
+        guard let movie = addMovieTitleTextField.text,
+        else { return }
+        
+    }
+    
+    movieController?.createMovie(with: movie) 
+    
     /*
     // MARK: - Navigation
 

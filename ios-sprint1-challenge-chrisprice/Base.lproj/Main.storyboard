@@ -29,34 +29,37 @@
         <!--Add Movie-->
         <scene sceneID="7t8-Qk-YIA">
             <objects>
-                <viewController id="5Mk-SB-nhu" sceneMemberID="viewController">
+                <viewController id="5Mk-SB-nhu" customClass="CreateNewMovieViewController" customModule="ios_sprint1_challenge_chrisprice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xTG-yP-k1d">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Movie Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jjF-zH-IBz">
-                                <rect key="frame" x="8" y="180" width="398" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TU-LL-xE8">
+                                <rect key="frame" x="168" y="456" width="78" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save Movie"/>
+                                <connections>
+                                    <action selector="saveMovieButtonPressed:" destination="r5h-yn-5q5" eventType="touchUpInside" id="2Bp-gF-lGQ"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Movie Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E3U-Pl-i96">
+                                <rect key="frame" x="159" y="371" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TU-LL-xE8">
-                                <rect key="frame" x="168" y="513" width="78" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Save Movie"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="jjF-zH-IBz" firstAttribute="centerX" secondItem="G9s-dK-bgU" secondAttribute="centerX" id="Esu-GM-c6h"/>
-                            <constraint firstItem="G9s-dK-bgU" firstAttribute="trailing" secondItem="jjF-zH-IBz" secondAttribute="trailing" constant="8" id="bE3-yM-jRf"/>
-                            <constraint firstItem="jjF-zH-IBz" firstAttribute="leading" secondItem="G9s-dK-bgU" secondAttribute="leading" constant="8" id="obz-3L-itt"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="G9s-dK-bgU"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Add Movie" image="Plus" id="19W-UF-RW5"/>
+                    <connections>
+                        <outlet property="addMovieTitleTextField" destination="E3U-Pl-i96" id="3cR-uS-nhK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P9a-GP-Xzu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="r5h-yn-5q5" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="514" y="-197"/>
         </scene>
