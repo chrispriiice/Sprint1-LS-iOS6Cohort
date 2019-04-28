@@ -10,13 +10,90 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ios-sprint1-challenge-chrisprice/CreateNewMovieViewController.swift"
-            timestampString = "578006321.3731019"
+            timestampString = "578184767.417617"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "11"
             endingLineNumber = "11"
             landmarkName = "CreateNewMovieViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_sprint1_challenge_chrisprice.CreateNewMovieViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ios_sprint1_challenge_chrisprice.CreateNewMovieViewController"
+                  moduleName = "ios-sprint1-challenge-chrisprice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chrisprice/Desktop/LambdaSchool/iOS6/wk1Sprint/ios-sprint1-challenge-chrisprice/ios-sprint1-challenge-chrisprice/CreateNewMovieViewController.swift"
+                  timestampString = "578184767.42581"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_sprint1_challenge_chrisprice.CreateNewMovieViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ios_sprint1_challenge_chrisprice.CreateNewMovieViewController"
+                  moduleName = "ios-sprint1-challenge-chrisprice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chrisprice/Desktop/LambdaSchool/iOS6/wk1Sprint/ios-sprint1-challenge-chrisprice/ios-sprint1-challenge-chrisprice/CreateNewMovieViewController.swift"
+                  timestampString = "578184767.428098"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "199">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_sprint1_challenge_chrisprice.CreateNewMovieViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ios_sprint1_challenge_chrisprice.CreateNewMovieViewController&gt;"
+                  moduleName = "ios-sprint1-challenge-chrisprice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chrisprice/Desktop/LambdaSchool/iOS6/wk1Sprint/ios-sprint1-challenge-chrisprice/ios-sprint1-challenge-chrisprice/CreateNewMovieViewController.swift"
+                  timestampString = "578184767.430552"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_sprint1_challenge_chrisprice.CreateNewMovieViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ios_sprint1_challenge_chrisprice.CreateNewMovieViewController&gt;"
+                  moduleName = "ios-sprint1-challenge-chrisprice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chrisprice/Desktop/LambdaSchool/iOS6/wk1Sprint/ios-sprint1-challenge-chrisprice/ios-sprint1-challenge-chrisprice/CreateNewMovieViewController.swift"
+                  timestampString = "578184767.433038"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_sprint1_challenge_chrisprice.CreateNewMovieViewController.__deallocating_deinit"
+                  moduleName = "ios-sprint1-challenge-chrisprice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chrisprice/Desktop/LambdaSchool/iOS6/wk1Sprint/ios-sprint1-challenge-chrisprice/ios-sprint1-challenge-chrisprice/CreateNewMovieViewController.swift"
+                  timestampString = "578184767.4359519"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,11 +103,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ios-sprint1-challenge-chrisprice/CreateNewMovieViewController.swift"
-            timestampString = "578009351.452229"
+            timestampString = "578184767.418292"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "CreateNewMovieViewController"
             landmarkType = "3">
          </BreakpointContent>
